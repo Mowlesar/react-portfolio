@@ -1,9 +1,8 @@
 import styles from './Portfolio.module.css'; 
-import projectOne from '../../../public/Images/barkingBuddies.png'
-import projectTwo from '../../../public/Images/recipePlanner.png'
+import projectOne from '../../assets/Images/recipePlanner.png';
+import projectTwo from '../../assets/Images/barkingBuddies.png';
 
 
-// Mock data for portfolio items
 const portfolioItems = [
   {
     title: "Project 1",

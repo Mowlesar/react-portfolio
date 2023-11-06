@@ -1,9 +1,9 @@
 // AboutMe.jsx
-import avatar from '../../assets/Images/Avatar.jpeg'
-import styles from './AboutMe.module.css'; // Replace with actual path if different
+import avatar from '../../assets/Images/Avatar.jpeg';
+import styles from './AboutMe.module.css'; 
 
 const AboutMe = () => {
-  return (
+    return (
     <section className={styles.aboutMe}>
       <img src={avatar} alt="Avatar" className={styles.avatar} />
       <h1>Mowlesar Kathiramalanathan</h1>
@@ -15,6 +15,6 @@ const AboutMe = () => {
       </p>
     </section>
   );
-};
+    };
 
 export default AboutMe;
