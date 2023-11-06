@@ -6,8 +6,7 @@ const Header = () => {
   return (
     <header>
       <nav>
-        <div className="logo">
-          {/* Assuming you have a logo image or text here */}
+        <div>
           <h1>Mowlesar</h1>
         </div>
         <ul className="navigation">

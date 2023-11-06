@@ -1,10 +1,11 @@
 import styles from './Resume.module.css'; 
+import resume from '../../../public/Images/Resume.pdf'
 
 const Resume = () => {
   return (
     <section className={styles.resumeSection}>
       <h2 className={styles.resumeHeader}>Resume</h2>
-      <a href="path/to/your_resume.pdf" download="Your_Resume.pdf" className={styles.resumeDownloadLink}>
+      <a href={resume} download="Your_Resume.pdf" className={styles.resumeDownloadLink}>
         Download My Resume
       </a>
       <div className={styles.proficienciesSection}>

@@ -29,7 +29,7 @@
   
   .projectImage {
     width: 100%;
-    height: 200px; /* Or use any fixed height or max-height for better layout */
+    height: 200px; 
     object-fit: cover;
   }
   
@@ -46,5 +46,5 @@
     display: inline-block;
     margin: 0.5rem;
     text-decoration: none;
-    color: #646cff; /* Theme color for links */
+    color: #646cff; 
   }

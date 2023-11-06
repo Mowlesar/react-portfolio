@@ -1,5 +1,5 @@
 // AboutMe.jsx
-import avatar from '../path-to-your-avatar.jpg'; // Replace with the path to your avatar image
+import avatar from '../../assets/Images/Avatar.jpeg'
 import styles from './AboutMe.module.css'; // Replace with actual path if different
 
 const AboutMe = () => {

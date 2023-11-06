@@ -1,18 +1,21 @@
 import styles from './Portfolio.module.css'; 
+import projectOne from '../../../public/Images/barkingBuddies.png'
+import projectTwo from '../../../public/Images/recipePlanner.png'
+
 
 // Mock data for portfolio items
 const portfolioItems = [
   {
     title: "Project 1",
-    image: "path/to/project1-image.jpg", // replace with your image path
-    liveLink: "http://live-link-for-project1.com", // replace with your live project link
-    repoLink: "http://github-repo-link-for-project1.com", // replace with your repo link
+    image: projectOne, 
+    liveLink: "https://golnaz8.github.io/Recipe-Planner/", 
+    repoLink: "https://github.com/Golnaz8/Recipe-Planner",
   },
   {
     title: "Project 2",
-    image: "path/to/project1-image.jpg", // replace with your image path
-    liveLink: "http://live-link-for-project1.com", // replace with your live project link
-    repoLink: "http://github-repo-link-for-project1.com", // replace with your repo link
+    image: projectTwo, 
+    liveLink: "https://barkingbuddies-6c4e2edae219.herokuapp.com/login", 
+    repoLink: "https://github.com/temuts/BarkingBuddies", 
   },
 ];
 
