@@ -1,0 +1,44 @@
+/* Project.css */
+.project {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    text-align: center;
+    background-color: white;
+  }
+  
+  .project-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .project-title {
+    margin-top: 1em;
+    font-size: 1.5em;
+  }
+  
+  .project-description {
+    color: #666;
+    font-size: 1em;
+    margin-top: 0.5em;
+  }
+  
+  .project-link {
+    display: inline-block;
+    margin-top: 1em;
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    margin-right: 8px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .project-link:hover,
+  .project-link:focus {
+    background-color: #0056b3;
+  }
+  
