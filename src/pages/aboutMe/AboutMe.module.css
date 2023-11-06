@@ -1,0 +1,41 @@
+/* AboutMe.module.css */
+.homePgHeader {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 60px;
+  }
+  
+  .headerTitle {
+    color: black;
+  }
+  
+  .bioSection {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-style: solid;
+    border-width: thin;
+    padding: 20px;
+    max-width: 600px; 
+  }
+  
+  .educationImage, .personalImage {
+    width: 100%; 
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  .imgContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .uicIMG, .nwIMG {
+    height: 64px;
+    width: auto;
+    margin-right: 10px; 
+  }
+  
+  

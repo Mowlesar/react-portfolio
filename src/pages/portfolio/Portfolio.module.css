@@ -1,0 +1,50 @@
+.portfolioSection {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .portfolioHeader {
+    font-size: 2em;
+    margin-bottom: 1rem;
+  }
+  
+  .projectGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .projectCard {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .projectCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  }
+  
+  .projectImage {
+    width: 100%;
+    height: 200px; /* Or use any fixed height or max-height for better layout */
+    object-fit: cover;
+  }
+  
+  .projectTitle {
+    margin: 0.5rem;
+  }
+  
+  .projectLinks {
+    margin-bottom: 1rem;
+  }
+  
+  .liveLink,
+  .repoLink {
+    display: inline-block;
+    margin: 0.5rem;
+    text-decoration: none;
+    color: #646cff; /* Theme color for links */
+  }
